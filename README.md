@@ -91,8 +91,8 @@ For this project I used Microsoft Excel and SQL for data cleaning. I started the
    * Removed column “LogId”
    
 ## 4. Analyze & Share
-(SQL Query Link)
-(Tableau Link)
+SQL Query: [Data Analysis](https://github.com/yanteing/Google-Data-Analytics-CaseStudy-2-Bellabeat/blob/main/Data_Analysis.sql)
+
 
 ### Device Usage
 I have prepared my analysis and now I would like to visualize this in Tableau.
@@ -102,8 +102,8 @@ To better understand the market strategy, we categorize users by how often they 
 From the pie chart above, 87.9% of users (29 out of 33) are active users and only 1 person is a light user, the remaining 3 users are moderate users. Next, to see if the users wear their devices for the whole day or not, Daily_Activity and Daily_Sleep datasets are combined then the total usage time is calculated using this query
 
  
-
 ![image](https://github.com/yanteing/Google-Data-Analytics-CaseStudy-2-Bellabeat/blob/main/Images/Device%20Usage%20Period.png)
+
 Looking at the bar chart for the number of log-ins, the daily usage period for active users is similar to that of all users, which makes sense since they make up the largest group. Additionally, it can be observed from the daily log counts for both moderate and light users that they record their activity for the entire day rather than just for more than half of the day and less than half of the day.
 
  
@@ -111,12 +111,14 @@ Looking at the bar chart for the number of log-ins, the daily usage period for a
 Next analysis is of the user’s activity level starting with intensities/activity minutes
 
 ![image](https://github.com/yanteing/Google-Data-Analytics-CaseStudy-2-Bellabeat/blob/main/Images/Avg%20Calories%20Burned%20based%20on%20Intensity%20Levels.png) ![image](https://github.com/yanteing/Google-Data-Analytics-CaseStudy-2-Bellabeat/blob/main/Images/Number%20of%20Users%20Log%20Over%20Time.png)
+
 On average, users are meeting the recommended 150 minutes of vigorous and moderate exercise per week. Interestingly, more of their time is spent engaging in light-level activity compared to moderate or very active levels. It's worth noting that all 33 users in the dataset tracked their activity, with 21 of them consistently logging their daily activities throughout the month. This suggests a generally active user base that's achieving recommended exercise levels while favoring lighter activities
 
 ### Steps
 Next analysis is of the user’s steps finding
 
 ![image](https://github.com/yanteing/Google-Data-Analytics-CaseStudy-2-Bellabeat/blob/main/Images/Steps%20Finding.png)
+
 On average, users are taking around 7,000 steps per day, a level associated with reduced mortality risk according to a study. Their step count gradually increases throughout the day, with a notable peak around 6pm. However, there's a rapid rise and fall between 10am and 4pm. Interestingly, step counts tend to decrease from Wednesday to Friday, indicating a potential mid-week dip in activity. There is also a positive correlation between taking more steps and burning more calories
 
 ### Sleep
