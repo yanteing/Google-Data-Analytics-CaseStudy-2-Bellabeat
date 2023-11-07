@@ -98,34 +98,40 @@ For this project I used Microsoft Excel and SQL for data cleaning. I started the
 I have prepared my analysis and now I would like to visualize this in Tableau.
 To better understand the market strategy, we categorize users by how often they use their wearable smart devices to track their health activities, based on the number of days they log data.
 
-(Tableau Image)
+![image](https://github.com/yanteing/Google-Data-Analytics-CaseStudy-2-Bellabeat/blob/main/Images/User%20Category.png)
 From the pie chart above, 87.9% of users (29 out of 33) are active users and only 1 person is a light user, the remaining 3 users are moderate users. Next, to see if the users wear their devices for the whole day or not, Daily_Activity and Daily_Sleep datasets are combined then the total usage time is calculated using this query
 
-(Tableau Image2)
+ 
+
+![image](https://github.com/yanteing/Google-Data-Analytics-CaseStudy-2-Bellabeat/blob/main/Images/Device%20Usage%20Period.png)
 Looking at the bar chart for the number of log-ins, the daily usage period for active users is similar to that of all users, which makes sense since they make up the largest group. Additionally, it can be observed from the daily log counts for both moderate and light users that they record their activity for the entire day rather than just for more than half of the day and less than half of the day.
 
+ 
 ### Intensity
 Next analysis is of the user’s activity level starting with intensities/activity minutes
 
-(Activity Image 1)
+![image](https://github.com/yanteing/Google-Data-Analytics-CaseStudy-2-Bellabeat/blob/main/Images/Avg%20Calories%20Burned%20based%20on%20Intensity%20Levels.png) ![image](https://github.com/yanteing/Google-Data-Analytics-CaseStudy-2-Bellabeat/blob/main/Images/Number%20of%20Users%20Log%20Over%20Time.png)
 On average, users are meeting the recommended 150 minutes of vigorous and moderate exercise per week. Interestingly, more of their time is spent engaging in light-level activity compared to moderate or very active levels. It's worth noting that all 33 users in the dataset tracked their activity, with 21 of them consistently logging their daily activities throughout the month. This suggests a generally active user base that's achieving recommended exercise levels while favoring lighter activities
 
 ### Steps
 Next analysis is of the user’s steps finding
 
-(Tableau Steps Finding)
+![image](https://github.com/yanteing/Google-Data-Analytics-CaseStudy-2-Bellabeat/blob/main/Images/Steps%20Finding.png)
 On average, users are taking around 7,000 steps per day, a level associated with reduced mortality risk according to a study. Their step count gradually increases throughout the day, with a notable peak around 6pm. However, there's a rapid rise and fall between 10am and 4pm. Interestingly, step counts tend to decrease from Wednesday to Friday, indicating a potential mid-week dip in activity. There is also a positive correlation between taking more steps and burning more calories
 
 ### Sleep
 Next analysis is of the user’s sleep behaviour
 
-(Sleep 1) (Sleep 2)
+![image](https://github.com/yanteing/Google-Data-Analytics-CaseStudy-2-Bellabeat/blob/main/Images/Average%20Hours%20of%20Sleep%20per%20Day.png)
+
 Out of the total 33 users, 24 of them tracked their sleep, although with less consistency compared to activity tracking. Only 15 of these 24 users completed at least half of the month in terms of sleep tracking, indicating sporadic logging rather than daily commitment. Half of the users meet the recommended 7 hours of sleep per CDC guidelines, but the other half fall short, with an average sleep duration of 6.9 hours for all users. On a weekly basis, users experience fluctuations in sleep duration, alternating between getting around 7 hours and just under 6.8 hours of sleep. Notably, the majority of users face disrupted sleep patterns, with at least 15 minutes of wakefulness during their sleep cycles.
 
 ### Weight
 Next analysis is of the user’s weight findings
 
-(Weight 1)(Weight 2)
+![image](https://github.com/yanteing/Google-Data-Analytics-CaseStudy-2-Bellabeat/blob/main/Images/Weight%20Change%20%26%20Weight%20Logs.png)
+![image](https://github.com/yanteing/Google-Data-Analytics-CaseStudy-2-Bellabeat/blob/main/Images/Number%20of%20Weight%20Logs%20for%20Users.png)
+
 Out of the 33 users, only 8 tracked their weight data, and of those, just 2 users did so more than 5 times, indicating limited engagement with weight tracking. Users with more weight logs had a greater percent change in body weight than those who only logged a few times. This could indicate users who track weight are more motivated to lose weight and as such lose more.
 
 ### Analysis Conclusion:
