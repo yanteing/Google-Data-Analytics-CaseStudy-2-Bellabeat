@@ -1,4 +1,4 @@
-# Google-Data-Analytics-CaseStudy-Cyclistic
+# Google-Data-Analytics-CaseStudy-Bellabeat
 Course: https://www.coursera.org/learn/google-data-analytics-capstone
 
 ## Introduction
